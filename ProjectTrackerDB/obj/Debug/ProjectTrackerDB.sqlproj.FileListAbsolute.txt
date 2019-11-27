@@ -1,0 +1,9 @@
+C:\code\ProjectTracker\ProjectTrackerDB\bin\Debug\ProjectTrackerDB.dacpac
+C:\code\ProjectTracker\ProjectTrackerDB\bin\Debug\ProjectTrackerDB.dll
+C:\code\ProjectTracker\ProjectTrackerDB\bin\Debug\ProjectTrackerDB.pdb
+C:\code\ProjectTracker\ProjectTrackerDB\obj\Debug\Model.xml
+C:\code\ProjectTracker\ProjectTrackerDB\obj\Debug\refactor.xml
+C:\code\ProjectTracker\ProjectTrackerDB\obj\Debug\postdeploy.sql
+C:\code\ProjectTracker\ProjectTrackerDB\obj\Debug\predeploy.sql
+C:\code\ProjectTracker\ProjectTrackerDB\obj\Debug\ProjectTrackerDB.dll
+C:\code\ProjectTracker\ProjectTrackerDB\obj\Debug\ProjectTrackerDB.pdb

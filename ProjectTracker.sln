@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTracker", "ProjectTr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{42434C43-3F4B-48BE-8B3D-073E2A295B1E}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ProjectTrackerDB", "ProjectTrackerDB\ProjectTrackerDB.sqlproj", "{E1BC50F4-E59A-4CA7-88B9-23E6129D1C2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{42434C43-3F4B-48BE-8B3D-073E2A295B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42434C43-3F4B-48BE-8B3D-073E2A295B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42434C43-3F4B-48BE-8B3D-073E2A295B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BC50F4-E59A-4CA7-88B9-23E6129D1C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BC50F4-E59A-4CA7-88B9-23E6129D1C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BC50F4-E59A-4CA7-88B9-23E6129D1C2B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E1BC50F4-E59A-4CA7-88B9-23E6129D1C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BC50F4-E59A-4CA7-88B9-23E6129D1C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BC50F4-E59A-4CA7-88B9-23E6129D1C2B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
