@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataLibrary.Models
 {
-    public class UserModel
+    public class User
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
@@ -12,5 +12,6 @@ namespace DataLibrary.Models
         public string EmailAddress { get; set; }
         public string ProfilePicture { get; set; }
         public string Type { get; set; }
+        public string Password { get; set; }
     }
 }

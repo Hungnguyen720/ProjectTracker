@@ -6,13 +6,13 @@ namespace DataLibrary.Models
 {
     public class ProjectSettings
     {
-        public int Id;
-        public int ProjectId;
-        public string Name;
-        public DateTime DateCreated;
-        public int IsActive;
-        public decimal Version;
-        public string GitRepo;
-        public int isArchived;
+        public int Id { get; set; }
+        public int ProjectId { get; set; }
+        public string Name { get; set; }
+        public DateTime DateCreated { get; set; }
+        public int IsActive { get; set; }
+        public decimal Version { get; set; }
+        public string GitRepo { get; set; }
+        public int isArchived { get; set; }
     }
 }

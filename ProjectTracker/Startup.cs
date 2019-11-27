@@ -31,6 +31,9 @@ namespace ProjectTracker
                 configuration.RootPath = "ClientApp/build";
             });
 
+            services.AddDbContext<ProjectContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("ProjectTracker")));
+
             services.AddDbContext<UserContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("ProjectTracker")));
         }

@@ -8,6 +8,6 @@ namespace DataLibrary.Models
     {
         public int Id { get; set; }
         public int ProjectID { get; set; }
-        public List<UserModel> ProjectMembers {get; set; } = new List<UserModel>();
+        public List<User> ProjectMembers {get; set; } = new List<User>();
     }
 }

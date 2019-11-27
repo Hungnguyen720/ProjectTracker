@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\code\\ProjectTracker\\DataLibrary\\DataLibrary.csproj": {}
+    "C:\\Code\\ProjectTracker\\DataLibrary\\DataLibrary.csproj": {}
   },
   "projects": {
-    "C:\\code\\ProjectTracker\\DataLibrary\\DataLibrary.csproj": {
+    "C:\\Code\\ProjectTracker\\DataLibrary\\DataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\ProjectTracker\\DataLibrary\\DataLibrary.csproj",
+        "projectUniqueName": "C:\\Code\\ProjectTracker\\DataLibrary\\DataLibrary.csproj",
         "projectName": "DataLibrary",
-        "projectPath": "C:\\code\\ProjectTracker\\DataLibrary\\DataLibrary.csproj",
+        "projectPath": "C:\\Code\\ProjectTracker\\DataLibrary\\DataLibrary.csproj",
         "packagesPath": "C:\\Users\\Hung\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\ProjectTracker\\DataLibrary\\obj\\",
+        "outputPath": "C:\\Code\\ProjectTracker\\DataLibrary\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Hung\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -41,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.0.0, )"

@@ -10,7 +10,6 @@ namespace DataLibrary.Data
         { 
         }
 
-        // User is the database name Entity framework is looking for
         public DbSet<User> User { get; set; }
     }
 }
