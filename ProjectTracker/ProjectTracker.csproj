@@ -28,7 +28,29 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\components\ProjectComponents\ProjectBugsDashboard.tsx" />
+    <None Remove="ClientApp\src\components\ProjectComponents\ProjectCalendarComponent.tsx" />
+    <None Remove="ClientApp\src\components\ProjectComponents\ProjectDashboardComponent.tsx" />
+    <None Remove="ClientApp\src\components\ProjectComponents\ProjectDocumentsDashboard.tsx" />
+    <None Remove="ClientApp\src\components\ProjectComponents\ProjectReportsComponent.tsx" />
+    <None Remove="ClientApp\src\components\UserComponents\AccountSettingsComponent.tsx" />
+    <None Remove="ClientApp\src\components\UserComponents\LoginComponent.tsx" />
+    <None Remove="ClientApp\src\components\UserComponents\RegisterComponent.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DataLibrary\DataLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\components\ProjectComponents\ProjectBugsDashboard.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\components\ProjectComponents\ProjectCalendarComponent.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\components\ProjectComponents\ProjectDashboardComponent.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\components\ProjectComponents\ProjectReportsComponent.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\components\ProjectComponents\ProjectDocumentsDashboard.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\components\UserComponents\AccountSettingsComponent.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\components\UserComponents\LoginComponent.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\components\UserComponents\RegisterComponent.tsx" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
