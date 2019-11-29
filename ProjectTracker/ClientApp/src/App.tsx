@@ -22,7 +22,7 @@ export default () => (
         <Route path='/counter' component={Counter} />
         <Route path='/fetch-data/:startDateIndex?' component={FetchData} />
         <Route path='/login' component={LoginComponent} />
-        <Route path='/Register' component={RegisterComponent} />
+        <Route path='/Register' component={RegisterComponent} FirstName='Hung' LastName='Nguyen'/>
         <Route path='/AccountSettings' component={AccountSettingsComponent} />
         <Route path='/project/dashboard' component={ProjectDashboardComponent} />
         <Route path='/project/bugs' component={ProjectBugsDashboard} />

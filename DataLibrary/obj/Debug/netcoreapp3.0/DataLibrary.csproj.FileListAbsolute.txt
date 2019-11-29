@@ -1,8 +1,7 @@
-C:\Code\ProjectTracker\DataLibrary\obj\Debug\netcoreapp3.0\DataLibrary.csprojAssemblyReference.cache
-C:\Code\ProjectTracker\DataLibrary\obj\Debug\netcoreapp3.0\DataLibrary.AssemblyInfoInputs.cache
-C:\Code\ProjectTracker\DataLibrary\obj\Debug\netcoreapp3.0\DataLibrary.AssemblyInfo.cs
 C:\Code\ProjectTracker\DataLibrary\bin\Debug\netcoreapp3.0\DataLibrary.deps.json
 C:\Code\ProjectTracker\DataLibrary\bin\Debug\netcoreapp3.0\DataLibrary.dll
 C:\Code\ProjectTracker\DataLibrary\bin\Debug\netcoreapp3.0\DataLibrary.pdb
+C:\Code\ProjectTracker\DataLibrary\obj\Debug\netcoreapp3.0\DataLibrary.AssemblyInfoInputs.cache
+C:\Code\ProjectTracker\DataLibrary\obj\Debug\netcoreapp3.0\DataLibrary.AssemblyInfo.cs
 C:\Code\ProjectTracker\DataLibrary\obj\Debug\netcoreapp3.0\DataLibrary.dll
 C:\Code\ProjectTracker\DataLibrary\obj\Debug\netcoreapp3.0\DataLibrary.pdb
